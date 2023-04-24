@@ -15,7 +15,8 @@ app.set("views", "./src/views");
 app.set("view engine", "ejs")
 
 productRouter.route("/").get((req, res) => {
-    res.send("HELL");
+    res.render("products")
+   // res.send("HELL");
 });
 
 productRouter.route("/1").get((req, res) => {
