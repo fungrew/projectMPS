@@ -1,0 +1,24 @@
+{
+    "products": [
+      {
+        "productsTitle": "test1",
+        "productsDescrption": "B1",
+        "price": 140
+      },
+      {
+        "productsTitle": "test2",
+        "productsDescrption": "B2",
+        "price": 145
+      },
+      {
+        "productsTitle": "test3",
+        "productsDescrption": "B3",
+        "price": 150
+      },
+      {
+        "productsTitle": "test4",
+        "productsDescrption": "B4",
+        "price": 155
+      }
+    ]
+  }
