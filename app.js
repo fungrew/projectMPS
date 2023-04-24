@@ -21,7 +21,7 @@ productRouter.route("/").get((req, res) => {
 productRouter.route("/1").get((req, res) => {
     res.send("HELL1");
 });
-app.use("/Products", productRouter)
+app.use("/", productRouter)
 
 
 app.get("/", (req, res) => {
