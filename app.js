@@ -17,10 +17,10 @@ app.set("view engine", "ejs")
 productRouter.route("/").get((req, res) => {
     res.render("products",{
         products:[
-        {protuctsTitle:'test1',productsDescrption:'B1',productprice:140},
-        {protuctsTitle:'test2',productsDescrption:'B2',productprice:145},
-        {protuctsTitle:'test3',productsDescrption:'B3',productprice:150},
-        {protuctsTitle:'test4',productsDescrption:'B4',productprice:155},
+        {productsTitle:'test1',productsDescrption:'B1',price: 140},
+        {productsTitle:'test2',productsDescrption:'B2',price: 145},
+        {productsTitle:'test3',productsDescrption:'B3',price: 150},
+        {productsTitle:'test4',productsDescrption:'B4',price: 155},
     ],
 });
    // res.send("HELL");
