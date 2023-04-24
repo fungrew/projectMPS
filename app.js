@@ -22,8 +22,8 @@ app.get("/",(req,res)=>{
 })
 
 app.listen(PORT,()=>{
-    debuglog("Lisening on"+chalk.green(PORT))
-   debug("lisening on"+chalk.red(PORT))
+   //debuglog("Lisening on"+chalk.green(PORT))
+  // debug("lisening on"+chalk.red(PORT))
    console.log("Listrning to"+chalk.red(PORT))
 })
  
