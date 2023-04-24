@@ -22,7 +22,7 @@ productRouter.route("/").get((req, res) => {
         {protuctsTitle:'test3',productsDescrption:'B3',productprice:150},
         {protuctsTitle:'test4',productsDescrption:'B4',productprice:155},
     ],
-})
+});
    // res.send("HELL");
 });
 
