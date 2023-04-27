@@ -115,7 +115,7 @@
             </h1>
             <%products.map((product)=>{ %>
                 <h4>
-                    <%=product.productsTitle%>
+                    <a href="#/products/<%=product.id%>"><%=product.productsTitle%></a>
                 </h4>
                 <p>
                     <%=product.productsDescrption%>

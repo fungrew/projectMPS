@@ -22,8 +22,9 @@ productRouter.route("/").get((req, res) => {
    // res.send("HELL");
 });
 
-productRouter.route("/1").get((req, res) => {
-    res.send("HELL1");
+productRouter.route("/:id").get((req, res) => {
+    const id =req.params.id;
+    res.send("HELL1"+id);
 });
 app.use("/products", productRouter)
 
